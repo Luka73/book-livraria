@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    font-family: tahoma;
+    color: #666;
+}
+
+#total{
+    width: 1000px;
+    margin: auto;
+}
