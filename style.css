@@ -23,7 +23,8 @@ h2{
 }
 
 #total{
-    width: 1000px;
+    width: 95%;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -81,4 +82,48 @@ h2{
     padding: 30px 0;
     color: #999;
 }
+
+#anuncio{
+    width: 100%;
+    background-color: #ff8900;
+    color: #fff;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+    display: none;
+}
+
+
+@media screen and (max-width: 640px){
+    .texto1, .texto2{
+        width: 100%;
+    }
+    
+    #menu{
+        height: auto;
+    }
+    
+    #menu a{
+        display: block;
+        border-bottom: solid 1px #ccc;
+    }
+    
+    #menu a:last-child{
+        border: none;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px){
+    #anuncio{
+        display: block;
+    }
+    
+    #menu a{
+        font-size: 14px;
+        margin: 0 25px;
+    }
+}
+
+
+
 
